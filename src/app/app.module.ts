@@ -10,6 +10,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 import { ProductModule} from './modules/product/product.module'
+import {FooterModule} from "./modules/footer/footer.module";
+import {MenuModule} from "./modules/menu/menu.module";
 
 @NgModule({
   declarations: [
@@ -24,9 +26,12 @@ import { ProductModule} from './modules/product/product.module'
     MatCardModule,
     MatButtonModule,
     MatDividerModule,
-    ProductModule
+    ProductModule,
+    FooterModule,
+    MenuModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [MatIconModule]
 })
 export class AppModule { }

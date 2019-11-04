@@ -1,17 +1,29 @@
 import {Injectable} from '@angular/core';
-import {HttpClient, HttpParams} from '@angular/common/http';
-import {Product} from '../models/product';
+import {HttpClient} from '@angular/common/http';
+import {BehaviorSubject} from "rxjs";
 
 const API = 'http://localhost:9000';
 
-export class ProductCardService {
-  constructor(private http: HttpClient) {
+@Injectable()
+export class ProductCardService{
 
+  public term= new BehaviorSubject<any>(false);
+  public qtdProduct = new BehaviorSubject<any>(false);
+
+  constructor(private http: HttpClient) {
+    this.term.asObservable();
+    this.qtdProduct.asObservable();
   }
 
   listFromProduct(terms) {
-    const params = new HttpParams().append('terms', terms.toString());
-    return this.http.get<Product[]>(API, {params});
+    return this.http.get<any>(API + `/searchById?terms=` + terms );
   }
 
+  setQtdProduct(value){
+    this.qtdProduct = value;
+  }
+
+  getQtdProduct(){
+    return this.qtdProduct;
+  }
 }

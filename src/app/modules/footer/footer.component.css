@@ -177,7 +177,7 @@ a:hover {
 }
 
 .terminal pre {
-  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
   color: white;
   padding: 0 1rem 1rem;
   margin: 0;
@@ -225,17 +225,17 @@ footer a {
   align-items: center;
   font-size: 12px;
   padding: 3px 10px;
-  border: 1px solid rgba(27,31,35,.2);
+  border: 1px solid rgba(27, 31, 35, .2);
   border-radius: 3px;
-  background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+  background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
   margin-left: 4px;
   font-weight: 600;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 
 .github-star-badge:hover {
-  background-image: linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%);
-  border-color: rgba(27,31,35,.35);
+  background-image: linear-gradient(-180deg, #f0f3f6, #e6ebf1 90%);
+  border-color: rgba(27, 31, 35, .35);
   background-position: -.5em;
 }
 
@@ -257,7 +257,7 @@ svg#clouds {
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
 
-  .card-container > *:not(.circle-link) ,
+  .card-container > *:not(.circle-link),
   .terminal {
     width: 100%;
   }
@@ -294,17 +294,17 @@ svg#clouds {
   background-size: cover;
 }
 
-body{
+body {
   padding-top: 75px;
 }
 
-.search-container{
+.search-container {
   width: 490px;
   display: block;
   margin: 0 auto;
 }
 
-input#search-bar{
+input#search-bar {
   margin: 0 auto;
   width: 100%;
   height: 45px;
@@ -312,26 +312,35 @@ input#search-bar{
   font-size: 1rem;
   border: 1px solid #D0CFCE;
   outline: none;
-  &:focus{
-    border: 1px solid #008ABF;
-    transition: 0.35s ease;
-    color: #008ABF;
-    &::-webkit-input-placeholder{
-      transition: opacity 0.45s ease;
-      opacity: 0;
-    }
-    &&::-moz-placeholder {
-      transition: opacity 0.45s ease;
-      opacity: 0;
-    }
-    &:-ms-placeholder {
-    transition: opacity 0.45s ease;
-    opacity: 0;
-    }
-  }
+
+&
+:focus {
+  border: 1px solid #008ABF;
+  transition: 0.35s ease;
+  color: #008ABF;
+
+&
+::-webkit-input-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
 }
 
-.search-icon{
+&
+::-moz-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+
+&
+:-ms-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+
+}
+}
+
+.search-icon {
   position: relative;
   float: right;
   bottom: 64%;
@@ -339,34 +348,35 @@ input#search-bar{
 }
 
 
-.search{
+.search {
   background: #1976d2;
   background-color: #24292e;
 }
 
 
-.lengtProduct{
-color: #48185b;
-margin-left: 1%;
-font-size: 15px;
+.lengtProduct {
+  color: #48185b;
+  margin-left: 1%;
+  font-size: 15px;
 }
-
 
 
 /* Flex BOX */
 .grow1 {
-flex-grow: 1;
+  flex-grow: 1;
 }
+
 .item {
-margin: 5px;
-text-align: center;
-font-size: 1.5em;
+  margin: 5px;
+  text-align: center;
+  font-size: 1.5em;
 }
+
 .container {
-width: 100%;
-margin: 0 auto;
-display: flex;
-border: 1px solid #48185b;
-background: #48185b;
-height: 7%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid #48185b;
+  background: #48185b;
+  height: 7%;
 }
