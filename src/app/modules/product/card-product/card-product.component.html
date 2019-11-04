@@ -1,0 +1,36 @@
+<div class="card-container">
+    <mat-card class="card" *ngFor="let produtct of produtos">
+        
+        <div style="justify-items: normal;">
+            <img style="width: calc(100% + 32px);height: 200px;
+            margin: 0px 0 0 -16px;" mat-card-image 
+            src="{{produtct.img}}" alt="{{produtct.title}}">
+        </div>
+
+        <mat-card-header class="header">
+            <mat-card-title class="title header">{{produtct.title}}</mat-card-title>
+            <mat-card-subtitle class="subtitle header">{{produtct.id}}</mat-card-subtitle>
+        </mat-card-header>   
+        
+        <mat-card-content class="content" style="text-align: center; margin-top: 10px; margin-bottom: 0 !important;">
+            <p style="text-decoration: line-through; color: grey; margin: 0 !important;">
+                De: R$ {{produtct.price}}
+            </p>
+            <p style="font-size: 20px; font-weight: bold; margin: 0 !important">
+                Por: R$ {{produtct.sPrice}}
+            </p>
+        </mat-card-content> 
+
+        <button mat-button style="
+            background: #9fe8b2;
+            position: relative;
+            left: 74%;
+            top: 5px;
+            color: #00bb00;">SHARE
+            <mat-icon >
+                add_shopping_cart
+            </mat-icon>
+        </button>
+        
+    </mat-card>   
+</div>

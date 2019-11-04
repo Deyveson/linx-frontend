@@ -1,0 +1,95 @@
+/* Flex BOX */
+.grow1 {
+  flex-grow: 1;
+  }
+  .item {
+  margin: 5px;
+  text-align: center;
+  font-size: 1.5em;
+  }
+  .container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid #48185b;
+  background: #48185b;
+  height: 7%;
+  }
+
+  .card {
+    max-width: 20%;
+    margin: 4px;
+  }
+  
+  .header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+
+  .card-container > *:not(.circle-link) ,
+  .terminal {
+    width: 100%;
+  }
+
+  .card:not(.highlight-card) {
+    height: 16px;
+    margin: 8px 0;
+  }
+
+  .card.highlight-card span {
+    margin-left: 72px;
+  }
+
+  svg#rocket-smoke {
+    right: 120px;
+    transform: rotate(-5deg);
+  }
+}
+
+.card-container .card:not(:last-child) {
+  margin-right: 0;
+}
+
+.card.card-small {
+  height: 16px;
+  width: 168px;
+}
+
+.card-container .card:not(.highlight-card) {
+  cursor: pointer;
+}
+
+.card-container .card:not(.highlight-card):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 17px rgba(black, 0.35);
+}
+
+.card-container .card:not(.highlight-card):hover .material-icons path {
+  fill: rgb(105, 103, 103);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+}
+.title{
+  margin: 0 !important;
+}
+.subtitle{
+  margin: 0 !important;
+}
+.header{
+  margin: 0 !important;
+}
