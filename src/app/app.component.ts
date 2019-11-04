@@ -75,6 +75,134 @@ export class AppComponent {
       status: "available",
       price: 334,
       sPrice: 300.6
+    },
+    {
+      id: "116235KgLNC14530",
+      title: "Oferta Padrao de base Teste - 116235KgLNC14530",
+      img: "http://busca-images.neemu.com/neemu_chaordic.png",
+      status: "available",
+      price: 1284,
+      sPrice: 1155.6
+    },
+    {
+      id: "64835KgLNC5551",
+      title: "Oferta Padrao de base Teste - 64835KgLNC5551",
+      img: "http://busca-images.neemu.com/logo_busca.png",
+      status: "available",
+      price: 1650.5,
+      sPrice: 1485.45
+    },
+    {
+      id: "352835KgLNC7218",
+      title: "Oferta Padrao de base Teste - 352835KgLNC7218",
+      img: "http://busca-images.neemu.com/logo_busca.png",
+      status: "available",
+      price: 409.99,
+      sPrice: 368.99
+    },
+    {
+      id: "374635KgLNC16735",
+      title: "Oferta Padrao de base Teste - 374635KgLNC16735",
+      img: "http://busca-images.neemu.com/logo_busca.png",
+      status: "available",
+      price: 1487,
+      sPrice: 1338.3
+    },
+    {
+      id: "34335KgLNC16757",
+      title: "Oferta Padrao de base Teste - 34335KgLNC16757",
+      img: "http://busca-images.neemu.com/neemu_chaordic.png",
+      status: "available",
+      price: 398,
+      sPrice: 358.2
+    },
+    {
+      id: "414735KgLNC11382",
+      title: "Oferta Padrao de base Teste - 414735KgLNC11382",
+      img: "http://busca-images.neemu.com/logo_busca.png",
+      status: "available",
+      price: 1861.99,
+      sPrice: 1675.79
+    },
+    {
+      id: "100735KgLNC9556",
+      title: "Oferta Padrao de base Teste - 100735KgLNC9556",
+      img: "http://busca-images.neemu.com/neemu_chaordic.png",
+      status: "available",
+      price: 1643.99,
+      sPrice: 1479.59
+    },
+    {
+      id: "146235KgLNC14251",
+      title: "Oferta Padrao de base Teste - 146235KgLNC14251",
+      img: "http://busca-images.neemu.com/neemu_chaordic.png",
+      status: "available",
+      price: 1719.5,
+      sPrice: 1547.55
+    },
+    {
+      id: "424435KgLNC1165",
+      title: "Oferta Padrao de base Teste - 424435KgLNC1165",
+      img: "http://busca-images.neemu.com/logo_busca.png",
+      status: "available",
+      price: 1424.99,
+      sPrice: 1282.49
+    },
+    {
+      id: "1135KgLNC9372",
+      title: "Oferta Padrao de base Teste - 1135KgLNC9372",
+      img: "http://busca-images.neemu.com/linx.jpg",
+      status: "available",
+      price: 193.5,
+      sPrice: 174.15
+    },
+    {
+      id: "360835KgLNC7248",
+      title: "Oferta Padrao de base Teste - 360835KgLNC7248",
+      img: "http://busca-images.neemu.com/neemu_chaordic.png",
+      status: "available",
+      price: 650.5,
+      sPrice: 585.45
+    },
+    {
+      id: "70335KgLNC9445",
+      title: "Oferta Padrao de base Teste - 70335KgLNC9445",
+      img: "http://busca-images.neemu.com/linx.jpg",
+      status: "available",
+      price: 1328.99,
+      sPrice: 1196.09
+    },
+    {
+      id: "363235KgLNC3621",
+      title: "Oferta Padrao de base Teste - 363235KgLNC3621",
+      img: "http://busca-images.neemu.com/neemu_chaordic.png",
+      status: "available",
+      price: 412.99,
+      sPrice: 371.69
+    },
+    {
+      id: "232435KgLNC1205",
+      title: "Oferta Padrao de base Teste - 232435KgLNC1205",
+      img: "http://busca-images.neemu.com/logo_busca.png",
+      status: "available",
+      price: 800.5,
+      sPrice: 720.45
+    },
+    {
+      id: "484235KgLNC14964",
+      title: "Oferta Padrao de base Teste - 484235KgLNC14964",
+      img: "http://busca-images.neemu.com/linx.jpg",
+      status: "available",
+      price: 1048.5,
+      sPrice: 943.65
+    },
+    {
+      id: "291835KgLNC13329",
+      title: "Oferta Padrao de base Teste - 291835KgLNC13329",
+      img: "http://busca-images.neemu.com/neemu_chaordic.png",
+      status: "available",
+      price: 1541.99,
+      sPrice: 1387.79
     }
   ]
   qtdproducts = 0;
