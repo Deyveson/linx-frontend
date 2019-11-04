@@ -42,6 +42,4 @@ export class CardProductComponent implements OnInit, OnDestroy {
   }
 
 
-
-
 }

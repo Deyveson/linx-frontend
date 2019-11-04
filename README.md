@@ -9,5 +9,5 @@ Project - FrontEnd Angular
 1. Clone this repository: `https://github.com/Deyveson/frontend-linx.git`
 2. `cd` into the `frontend-linx` folder and run the following commands:
     1. Install `npm install`
-    2. Run `ng serve` for a dev server
-3. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+    2. Run `npm start` for a dev server
+3. Navigate to `http://localhost:9001/`. The app will automatically reload if you change any of the source files.
