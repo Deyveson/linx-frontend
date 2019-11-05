@@ -21,6 +21,13 @@ export class CardProductComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit() {
+    // console.log(this.route.snapshot.queryParams.terms);
+    console.log("CardProductComponent");
+    if(this.route.snapshot.queryParams.terms){
+      console.log('Existe', this.route.snapshot.queryParams.terms)
+      this.pesqProduct(this.route.snapshot.queryParams.terms);
+    }
+
     this.closeSubscribe = this.productService.term.subscribe(
       res=>{
         this.pesqProduct(res);
@@ -30,15 +37,14 @@ export class CardProductComponent implements OnInit, OnDestroy {
 
   pesqProduct (res) {
     this.productService.listFromProduct(res).subscribe((value) => {
-      this.produtos = value
+      this.produtos = value;
       this.productService.qtdProduct.next(value.length)
-
     });
 
   }
 
   ngOnDestroy(): void {
-  this.closeSubscribe.unsubscribe()
+    this.closeSubscribe.unsubscribe()
   }
 
 

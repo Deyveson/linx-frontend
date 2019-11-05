@@ -12,6 +12,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import { ProductModule} from './modules/product/product.module'
 import {FooterModule} from "./modules/footer/footer.module";
 import {MenuModule} from "./modules/menu/menu.module";
+import {ErrorsModule} from "./modules/errors/errors.module";
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {MenuModule} from "./modules/menu/menu.module";
     MatDividerModule,
     ProductModule,
     FooterModule,
-    MenuModule
+    MenuModule,
+    ErrorsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
