@@ -15,7 +15,6 @@ export class NavBarComponent implements OnInit, OnDestroy{
 
   ngOnInit() {
     this.productService.qtdProduct.subscribe(res => {
-      console.log("Recebendo mensagem", res)
       this.qtdproducts = res
     })
   }

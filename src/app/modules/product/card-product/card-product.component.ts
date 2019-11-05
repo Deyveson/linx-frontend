@@ -21,10 +21,7 @@ export class CardProductComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit() {
-    // console.log(this.route.snapshot.queryParams.terms);
-    console.log("CardProductComponent");
     if(this.route.snapshot.queryParams.terms){
-      console.log('Existe', this.route.snapshot.queryParams.terms)
       this.pesqProduct(this.route.snapshot.queryParams.terms);
     }
 
